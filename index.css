@@ -1,0 +1,112 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+main colors:
+#2A5574 -
+#CA583E
+#F6881E
+#D5CDC1
+#0D133D
+*/
+
+html {
+  font-size: 18px;
+  font-family: Cabin, sans-serif;
+  background-color: #D5CDC1;
+  height: 50000px;
+}
+body {
+  width: 100vw;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+nav {
+  width: 100vw;
+  height: 100px;
+}
+
+.nav-container {
+  background-image: url("./resources/Retro_Stripes.png");
+  background-size: 102% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin-left: -4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  width: 250px;
+  height: 60px;
+  padding: 30px 0 0 10px;
+}
+
+.nav-links {
+  width: 70vw;
+  height: 83%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-list {
+  display: flex;
+  font-size: 1.2rem;
+  align-items: center;
+  padding: 0 50px;
+  width: 85%;
+  justify-content: space-between;
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+
+.fa {
+  margin: 0 10px;
+}
