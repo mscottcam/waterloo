@@ -56,11 +56,8 @@ a {
 }
 
 .nav-logo {
-  /*width: 250px;
-  height: 60px;*/
   width: 300px;
   height: 75px;
-  /*border: thin solid red;*/
   padding-top: 25px;
 }
 
@@ -68,7 +65,6 @@ a {
   width: 70vw;
   height: 83%;
   display: flex;
-  /*border: thin solid green;*/
 }
 
 .top-nav-list {
@@ -77,12 +73,13 @@ a {
   align-items: center;
   padding: 0 50px;
   width: 85%;
-  justify-content: flex-end;
+  justify-content: center;
+  /*border: thin solid black;*/
 }
 
 .top-nav-list-item {
   font-size: 1.1rem;
-  padding: 0 20px;
+  padding: 0 40px;
   color: #0D133D;
 }
 
@@ -108,7 +105,6 @@ a {
   width: 100%;
   align-items: flex-end;
   justify-content: center;
-  border: thin solid pink;
 }
 
 .banner-button {
