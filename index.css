@@ -27,9 +27,10 @@ a {
 }
 
 .header {
-  background-image: url("./resources/austin-neill-247041.jpg");
+  background-image: url("./resources/teddy-kelley-105544.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 50% 0;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -42,7 +43,7 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
-  background-image: url("./resources/Retro_Stripes.png");
+  background-image: url("./resources/Retro_Stripes_vector.png");
   background-size: 102% 100%;
   background-repeat: no-repeat;
   background-position: 50% 0;
@@ -50,6 +51,8 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
+.top-nav:scrolling
 
 .top-nav-container:active {
   background-color: #D5CDC1;
@@ -74,7 +77,6 @@ a {
   padding: 0 50px;
   width: 85%;
   justify-content: center;
-  /*border: thin solid black;*/
 }
 
 .top-nav-list-item {
@@ -112,15 +114,16 @@ a {
   font-size: 1rem;
   width: 150px;
   height: 40px;
-  color: #D5CDC1;
-  border: 2px solid #D5CDC1;
+  color: #0D133D;
+  border: 2px solid #0D133D;
   background: none;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .banner-button:hover {
-  background: #D5CDC1;
+  background: #fff;
   color: #0D133D;
+  border: none;
 }
 
 .banner-summary {
