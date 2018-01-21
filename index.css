@@ -42,14 +42,10 @@ a {
   position: fixed;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0 20px;
-  background-image: url("./resources/Retro_Stripes_vector.png");
-  background-size: 102% 100%;
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  margin-left: -4px;
   display: flex;
-  justify-content: space-between;
+  background-color: #fff;
 }
 
 .top-nav:scrolling
@@ -61,7 +57,6 @@ a {
 .nav-logo {
   width: 300px;
   height: 75px;
-  padding-top: 25px;
 }
 
 .nav-links {
@@ -102,11 +97,11 @@ a {
   color: #0D133D;
 }
 
-.banner-button-container {
+/*.banner-button-container {
   display: flex;
   width: 100%;
-  align-items: flex-end;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .banner-button {
@@ -124,7 +119,7 @@ a {
   background: #fff;
   color: #0D133D;
   border: none;
-}
+}*/
 
 .banner-summary {
   margin: 0 auto;
