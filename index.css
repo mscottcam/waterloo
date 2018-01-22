@@ -43,7 +43,8 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
-  background-image: url("./resources/Retro_Stripes_vector.png");
+  /*background-color: #fff;*/
+  background-image: url("./resources/Retro_Stripes_Khaki.png");
   background-size: 102% 100%;
   background-repeat: no-repeat;
   background-position: 50% 0;
@@ -112,6 +113,8 @@ a {
 .banner-button {
   border-radius: 10px;
   font-size: 1rem;
+  /*font-family: 'Carrois Gothic SC', serif;*/
+  font-family: inherit;
   width: 150px;
   height: 40px;
   color: #0D133D;
